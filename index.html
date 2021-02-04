@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+    </head>
+    <script>
+        $(document).keydown(function(e) {
+            if([38,37, 40, 39 ].find(key=>key==e.keyCode)){
+                alert(e.key + ": " + e.keyCode);
+            }
+        });
+    </script>
+    <body>
+        <textarea>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nostrum a pariatur voluptatem quidem, sequi accusamus dolor consequuntur, deserunt omnis quibusdam fugit. Officiis atque repudiandae totam earum neque consequatur obcaecati!
+        </textarea>
+    </body>
+
+</html>

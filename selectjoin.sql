@@ -1,0 +1,1 @@
+SELECT * FROM `users` AS u JOIN `objects` AS o ON u.object_id=o.id
